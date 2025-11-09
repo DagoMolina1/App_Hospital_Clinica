@@ -1,0 +1,5 @@
+C:\xampp\htdocs\Insiders\App_Hospital_Clinica\obj\Debug\net9.0-windows\MainWindow.g.cs
+C:\xampp\htdocs\Insiders\App_Hospital_Clinica\obj\Debug\net9.0-windows\App.g.cs
+C:\xampp\htdocs\Insiders\App_Hospital_Clinica\obj\Debug\net9.0-windows\App_Hospital_Clinica_MarkupCompile.cache
+C:\xampp\htdocs\Insiders\App_Hospital_Clinica\obj\Debug\net9.0-windows\App_Hospital_Clinica_MarkupCompile.lref
+C:\xampp\htdocs\Insiders\App_Hospital_Clinica\obj\Debug\net9.0-windows\App_Hospital_Clinica.csproj.AssemblyReference.cache
