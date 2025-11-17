@@ -13,9 +13,9 @@
     <Folder Include="Infrastructure_NoSql\Mongo\Collections\" />
     <Folder Include="Infrastructure_SqlServer\Migrations\" />
     <Folder Include="Infrastructure_SqlServer\Queries\" />
-    <Folder Include="WebApi\DI\" />
-    <Folder Include="WebApi\Modules\" />
-    <Folder Include="WebApi\Filters\" />
+	  <None Update="appsettings.json">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
   </ItemGroup>
 
   <ItemGroup>
@@ -25,6 +25,6 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="10.0.0" />
   </ItemGroup>
-
 </Project>
