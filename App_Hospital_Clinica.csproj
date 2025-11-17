@@ -9,8 +9,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Infrastructure_NoSql\Adapters\" />
+    <Folder Include="Infrastructure_NoSql\Mongo\Collections\" />
     <Folder Include="Infrastructure_SqlServer\Migrations\" />
     <Folder Include="Infrastructure_SqlServer\Queries\" />
+    <Folder Include="WebApi\DI\" />
     <Folder Include="WebApi\Modules\" />
     <Folder Include="WebApi\Filters\" />
   </ItemGroup>

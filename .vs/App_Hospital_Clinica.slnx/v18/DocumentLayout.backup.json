@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\xampp\\htdocs\\Insiders\\App_Hospital_Clinica\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0787A4FF-BE1F-6D4C-347B-AB7C28530A20}|App_Hospital_Clinica.csproj|c:\\xampp\\htdocs\\insiders\\app_hospital_clinica\\infrastructure_sqlserver\\efdb\\clinicadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0787A4FF-BE1F-6D4C-347B-AB7C28530A20}|App_Hospital_Clinica.csproj|solutionrelative:infrastructure_sqlserver\\efdb\\clinicadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0787A4FF-BE1F-6D4C-347B-AB7C28530A20}|App_Hospital_Clinica.csproj|c:\\xampp\\htdocs\\insiders\\app_hospital_clinica\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0787A4FF-BE1F-6D4C-347B-AB7C28530A20}|App_Hospital_Clinica.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0787A4FF-BE1F-6D4C-347B-AB7C28530A20}|App_Hospital_Clinica.csproj|c:\\xampp\\htdocs\\insiders\\app_hospital_clinica\\webapi\\di\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0787A4FF-BE1F-6D4C-347B-AB7C28530A20}|App_Hospital_Clinica.csproj|solutionrelative:webapi\\di\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0787A4FF-BE1F-6D4C-347B-AB7C28530A20}|App_Hospital_Clinica.csproj|c:\\xampp\\htdocs\\insiders\\app_hospital_clinica\\infrastructure_nosql\\mongo\\collections\\mongosettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0787A4FF-BE1F-6D4C-347B-AB7C28530A20}|App_Hospital_Clinica.csproj|solutionrelative:infrastructure_nosql\\mongo\\collections\\mongosettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0787A4FF-BE1F-6D4C-347B-AB7C28530A20}|App_Hospital_Clinica.csproj|c:\\xampp\\htdocs\\insiders\\app_hospital_clinica\\infrastructure_nosql\\mongo\\collections\\historiaclinicadocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0787A4FF-BE1F-6D4C-347B-AB7C28530A20}|App_Hospital_Clinica.csproj|solutionrelative:infrastructure_nosql\\mongo\\collections\\historiaclinicadocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0787A4FF-BE1F-6D4C-347B-AB7C28530A20}|App_Hospital_Clinica.csproj|c:\\xampp\\htdocs\\insiders\\app_hospital_clinica\\infrastructure_nosql\\adapters\\historiaclinicarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0787A4FF-BE1F-6D4C-347B-AB7C28530A20}|App_Hospital_Clinica.csproj|solutionrelative:infrastructure_nosql\\adapters\\historiaclinicarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,19 +39,74 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ClinicaDbContext.cs",
-              "DocumentMoniker": "C:\\xampp\\htdocs\\Insiders\\App_Hospital_Clinica\\Infrastructure_SqlServer\\EfDb\\ClinicaDbContext.cs",
-              "RelativeDocumentMoniker": "Infrastructure_SqlServer\\EfDb\\ClinicaDbContext.cs",
-              "ToolTip": "C:\\xampp\\htdocs\\Insiders\\App_Hospital_Clinica\\Infrastructure_SqlServer\\EfDb\\ClinicaDbContext.cs*",
-              "RelativeToolTip": "Infrastructure_SqlServer\\EfDb\\ClinicaDbContext.cs*",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\Insiders\\App_Hospital_Clinica\\WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApi\\appsettings.json",
+              "ToolTip": "C:\\xampp\\htdocs\\Insiders\\App_Hospital_Clinica\\WebApi\\appsettings.json",
+              "RelativeToolTip": "WebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-15T01:28:12.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HistoriaClinicaRepository.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\Insiders\\App_Hospital_Clinica\\Infrastructure_NoSql\\Adapters\\HistoriaClinicaRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure_NoSql\\Adapters\\HistoriaClinicaRepository.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\Insiders\\App_Hospital_Clinica\\Infrastructure_NoSql\\Adapters\\HistoriaClinicaRepository.cs",
+              "RelativeToolTip": "Infrastructure_NoSql\\Adapters\\HistoriaClinicaRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T22:37:04.108Z",
+              "WhenOpened": "2025-11-15T01:27:58.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HistoriaClinicaDocument.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\Insiders\\App_Hospital_Clinica\\Infrastructure_NoSql\\Mongo\\Collections\\HistoriaClinicaDocument.cs",
+              "RelativeDocumentMoniker": "Infrastructure_NoSql\\Mongo\\Collections\\HistoriaClinicaDocument.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\Insiders\\App_Hospital_Clinica\\Infrastructure_NoSql\\Mongo\\Collections\\HistoriaClinicaDocument.cs",
+              "RelativeToolTip": "Infrastructure_NoSql\\Mongo\\Collections\\HistoriaClinicaDocument.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T01:27:55.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MongoSettings.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\Insiders\\App_Hospital_Clinica\\Infrastructure_NoSql\\Mongo\\Collections\\MongoSettings.cs",
+              "RelativeDocumentMoniker": "Infrastructure_NoSql\\Mongo\\Collections\\MongoSettings.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\Insiders\\App_Hospital_Clinica\\Infrastructure_NoSql\\Mongo\\Collections\\MongoSettings.cs",
+              "RelativeToolTip": "Infrastructure_NoSql\\Mongo\\Collections\\MongoSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T01:27:53.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\Insiders\\App_Hospital_Clinica\\WebApi\\DI\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "WebApi\\DI\\DependencyInjection.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\Insiders\\App_Hospital_Clinica\\WebApi\\DI\\DependencyInjection.cs",
+              "RelativeToolTip": "WebApi\\DI\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T01:27:42.49Z",
               "EditorCaption": ""
             }
           ]
         }
       ]
     }
+  ],
+  "FramesPinnedWhenTheyWereClosed": [
+    -699956912
   ]
 }
