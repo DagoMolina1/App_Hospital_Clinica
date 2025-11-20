@@ -1,12 +1,13 @@
 ﻿<Window x:Class="App_Hospital_Clinica.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:App_Hospital_Clinica"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="App Hospital Clínica" Height="350" Width="525">
     <Grid>
-
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Button Content="Registrar paciente"
+                    Width="160"
+                    Height="40"
+                    Click="BtnRegistrarPaciente_Click"/>
+        </StackPanel>
     </Grid>
 </Window>

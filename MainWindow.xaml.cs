@@ -9,19 +9,9 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using App_Hospital_Clinica.Infrastructure_SqlServer.EfDb;
+using Microsoft.Extensions.DependencyInjection;
 
-namespace App_Hospital_Clinica
-{
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
-    /*public partial class MainWindow : Window
-    {
-        public MainWindow()
-        {
-            InitializeComponent();
-        }
-    }*/
+namespace App_Hospital_Clinica {
     public partial class MainWindow : Window {
         private readonly ClinicaDbContext _db;
 
@@ -30,6 +20,13 @@ namespace App_Hospital_Clinica
             _db = db;
 
             // Aquí ya puedes usar _db.Pacientes, _db.Ordenes, etc.
+        }
+
+        private void BtnRegistrarPaciente_Click(object sender, RoutedEventArgs e) {
+            // Resolvemos la ventana desde el contenedor de DI
+            var window = App.Services.GetRequiredService<RegistrarPacienteWindow>();
+            window.Owner = this;
+            window.ShowDialog();
         }
     }
 }

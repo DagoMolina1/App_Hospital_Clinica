@@ -27,10 +27,11 @@ namespace App_Hospital_Clinica {
             services.AddSingleton<IConfiguration>(configuration);
 
             // 4) Registrar infraestructura SQL Server (nuestro método de extensión)
-            services.AddSqlServerInfrastructure(configuration);
+            services.AddClinicaServices(configuration);
 
             // 5) Registrar ventana principal
             services.AddSingleton<MainWindow>();
+            services.AddTransient<RegistrarPacienteWindow>();
 
             // 6) Build del contenedor
             Services = services.BuildServiceProvider();
